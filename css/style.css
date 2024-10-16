@@ -96,36 +96,34 @@ body {
 }
 @media (max-width: 768px) {
   #about {
-    height: 170vh;
+    height: 90vh;
   }
   #ourOffer {
-    height: 150vh;
+    height: 80vh;
   }
   #gallery {
-    height: 330vh;
+    height: 160vh;
   }
   #gallery img {
     margin-top: 10px;
   }
   .double-button {
-    
-    height: 14%;
+    height: 6%;
     width: 6%;
   }
   #contact {
     background-color: rgb(247, 246, 246);
-    margin-top: 50px;
-    height: 200vh;
+    height: 100vh;
   }
   #contact .row {
     flex-direction: column;
     align-items: center;
   }
 
-  #contact .col-md-6 {
+  /* #contact .col-md-6 {
     width: 100%;
     padding: 0;
-  }
+  } */
 
   #contact .map iframe {
     width: 100%;
@@ -134,5 +132,10 @@ body {
 
   .text.w-75 {
     width: 100%; /* Make the text block full width */
+  }
+}
+@media (max-width: 468px) {
+  .img1 {
+    width: 25%;
   }
 }
